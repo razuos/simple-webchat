@@ -1,0 +1,60 @@
+html {
+    font-size: 70%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #9db1d1;
+}
+
+.container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 70vh;
+}
+
+.message {
+    margin: 1rem 0;
+    color: white;
+    padding: 1rem 1rem;
+    background-color: #3d5d6b;
+    border-radius: 6px;
+    font-size: 2rem
+}
+
+.textForm {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto
+}
+
+.input {
+    height: 100%;
+    flex: 4;
+    margin-right: 2rem;
+    border: none;
+    border-radius: .5rem;
+    padding: 2px 1rem;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+}
+
+.input:focus {
+    background-color: white;
+}
+
+.button {
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #3d5d6b;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+}
